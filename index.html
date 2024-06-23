@@ -1,0 +1,363 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  
+  <script src="https://kit.fontawesome.com/b0cffcfa44.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.4/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>
+    Tea House Restaurant
+  </title>
+  <link rel="shortcut icon" href="images/bg_cup.png" type="image/x-icon">
+  <style>
+    *{
+        font-family:"Manrope", sans-serif ;
+    }
+    html, body{
+        background-color: white;
+        color: black;
+    }
+  </style>
+</head>
+<body class="">
+    <header class="w-full lg:pt-7 lg:container lg:mx-auto">
+        <div class="hero  min-h-screen lg:min-h-full">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+                <div>
+                    <img
+                src="images/banner.png"
+                class="max-w-sm rounded-lg z-0" />
+                </div>
+
+                <div class="-mt-20 bg-white z-10 md:ml-2 lg:mt-64 lg:-mr-72">
+                  <div class=" flex items-center gap-4 bg-white p-5 w-60 shadow-md lg:-mt-24">
+                    <i class="fa-solid fa-star text-3xl text-[#FFDC64] bg-white"></i>
+                    <div class="bg-white">
+                        <h3 class="text-3xl">5.00</h3>
+                        <p>
+                            Trust Pilot Ratings
+                        </p>
+                    </div>
+                </div>
+                </div>
+              <div>
+                <h1 class="text-4xl font-bold md:text-6xl lg:text-7xl">
+                    It's good <br> 
+                    tea time at The <br> Tea House</h1>
+                <p class="py-6 text-lg">
+                  Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                  quasi. In deleniti eaque aut repudiandae et a id nisi.
+                </p>
+                <button class="btn btn-primary text-xl font-bold text-white bg-gradient-to-l from-[#FF0000] to-[#FF8938]">Explore More <img class="inline" src="images/arrow.png" alt=""></button>
+              </div>
+            </div>
+          </div>
+    </header>
+  <main>
+    <!-- feature -->
+    <section class="md:m-10 xl:m-16 space-y-5 text-center">
+      <h2 class="text-5xl font-bold">
+        Our Featured Products
+      </h2>
+      <p class="text-base">
+        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, <br> by injected humour, or randomised words which don't look even slightly believable. 
+      </p>
+      <div class="flex flex-wrap justify-evenly md:gap-3">
+        <!-- card-1 -->
+        <div class="card bg-gradient-to-b from-[#F4F4F4] shadow-xl rounded-lg px-2 py-6 max-w-64">
+          <figure>
+            <img
+              src="images/tea-1.png"
+              alt="milk tea" />
+          </figure>
+          <div class="card-body items-center">
+            <h2 class="card-title text-2xl font-bold">Milk Tea</h2>
+            <p class="text-base text-[#777777] font-semibold text-center">Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+        <!-- card-2 -->
+        <div class="card bg-gradient-to-b from-[#F4F4F4] shadow-xl rounded-lg px-2 py-6 max-w-64">
+          <figure>
+            <img
+              src="images/tea-2.png"
+              alt="milk tea" />
+          </figure>
+          <div class="card-body items-center">
+            <h2 class="card-title text-2xl font-bold">Black Tea</h2>
+            <p class="text-base text-[#777777] font-semibold text-center">Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+        <!-- card-3 -->
+        <div class="card bg-gradient-to-b from-[#F4F4F4] shadow-xl rounded-lg px-2 py-6 max-w-64">
+          <figure>
+            <img
+              src="images/tea-1.png"
+              alt="Lemon Tea" />
+          </figure>
+          <div class="card-body items-center">
+            <h2 class="card-title text-2xl font-bold">Lemon Tea</h2>
+            <p class="text-base text-[#777777] font-semibold text-center">Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+        <!-- card-1 -->
+        <div class="card bg-gradient-to-b from-[#F4F4F4] shadow-xl rounded-lg px-2 py-6 max-w-64">
+          <figure>
+            <img
+              src="images/tea-1.png"
+              alt="Green Tea" />
+          </figure>
+          <div class="card-body items-center">
+            <h2 class="card-title text-2xl font-bold">Green Tea</h2>
+            <p class="text-base text-[#777777] font-semibold text-center">Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- green tea freshly presented -->
+     <section class="md:m-10 xl:m-16">
+      <div class="card lg:card-side flex justify-around">
+
+        <div class="grid grid-cols-2 gap-2 justify-center items-center flex-1">
+          <div class="w-60 h-32 bg-gradient-to-r from-[#FF8938] rounded-xl"></div>
+          <div class="row-span-2 bg-[#e6a5233c] w-60 rounded-xl flex justify-center p-4">
+            <img src="images/fresh-1.png" alt="">
+          </div>
+          <div class="row-span-2 rounded-xl bg-[#5776393c] w-60 flex justify-center p-4">
+            <img src="images/fresh-2.png" alt="">
+          </div>
+          <div class="w-60 h-32 bg-gradient-to-b from-[#F4F4F4] rounded-xl"></div>
+        </div>
+
+        <div class="card-body flex-1">
+          <h2 class="card-title text-4xl font-bold md:text-5xl">Great Tea, Freshly Presented</h2>
+          <p class="text-base">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
+          <h3 class="text-xl font-bold">
+            Unique Taste
+          </h3>
+          <p class="text-base">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+          
+          <h3 class="text-xl font-bold">
+            Premium Quality
+          </h3>
+          <p class="text-base">Premium Quality that makes tea more elegant and more durable when you use it.</p>
+
+        </div>
+
+      </div>
+     </section>
+<!-- box office news -->
+     <section class="md:m-10 xl:m-16 rounded-xl">
+      <div class="hero min-h-screen bg-gradient-to-r from-[#FF8938] lg:min-h-fit lg:py-10">
+        <div class="hero-content flex-col lg:flex-row-reverse">
+
+          <div class="flex">
+            
+            <section class="mt-36 -mr-80 z-10">
+              <div class="indicator bg-white rounded-xl">
+                <div class="indicator-item indicator-start">
+                  <img src="images/client.png" alt="">
+                </div>
+                <div class="card border max-w-96">
+                  <div class="card-body">
+                    <p class="test-base">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                    <div class="flex flex-row items-center justify-between">
+                      <div class="">
+                        <h2 class="card-title font-bold text-base">Ilham Yuda</h2>
+                        <p class="text-base">Businessman</p>
+                      </div>
+                      <img src="images/circles.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+
+            <div class=" grid grid-rows-2 gap-14 opacity-50">
+
+              <section>
+                <div class="indicator">
+                  <div class="indicator-item indicator-start">
+                    <img src="images/client.png" alt="">
+                  </div>
+                  <div class="card border max-w-96">
+                    <div class="card-body">
+                      <p class="test-base">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                      <div class="flex flex-row items-center justify-between">
+                        <div class="">
+                          <h2 class="card-title font-bold text-base">Ilham Yuda</h2>
+                          <p class="text-base">Businessman</p>
+                        </div>
+                        <img src="images/circles.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               </section>
+  
+               <section>
+                <div class="indicator">
+                  <div class="indicator-item indicator-start">
+                    <img src="images/client.png" alt="">
+                  </div>
+                  <div class="card border max-w-96">
+                    <div class="card-body">
+                      <p class="test-base">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                      <div class="flex flex-row items-center justify-between">
+                        <div class="">
+                          <h2 class="card-title font-bold text-base">Ilham Yuda</h2>
+                          <p class="text-base">Businessman</p>
+                        </div>
+                        <img src="images/circles.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               </section>
+  
+            </div>
+            
+          </div>
+          
+          <div>
+            <h1 class="text-5xl font-bold">Box Office News!</h1>
+            <p class="py-6">
+              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
+            </p>
+            <button class="btn btn-primary text-[#FF8938] bg-white">Show All</button>
+          </div>
+        </div>
+      </div>
+     </section>
+
+     <section class="flex flex-col items-center space-y-4 md:m-10 xl:m-16">
+      <h2 class="card-title text-4xl font-extrabold md:text-5xl">News & Events</h2>
+      <p class="text-base">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+      <!-- news and event -->
+     <section class="flex flex-wrap justify-evenly md:gap-6">
+
+      <div class="card border border-gray-600 max-w-sm">
+        <figure class="px-10 pt-10">
+          <img
+            src="images/news-1.png"
+            alt="news-2"
+            class="rounded-xl" />
+        </figure>
+
+        <div class="card-body items-center text-start">
+          <p class="text-base">Feb 05, 2027</p>
+          <h2 class="card-title text-xl font-extrabold">Collecting 8 points for discount</h2>
+          <p class="text-base">There are many variations of passages of Lorem Ipsum available.</p>
+          <div class="card-actions">
+            <button class="btn btn-outline text-[#1C1C1C] border-0 text-base">Learn More</button>
+          </div>
+        </div>
+
+      </div>
+      <div class="card border border-gray-600 max-w-sm">
+        <figure class="px-10 pt-10">
+          <img
+            src="images/news-2.png"
+            alt="news-2"
+            class="rounded-xl" />
+        </figure>
+
+        <div class="card-body items-center text-start">
+          <p class="text-base">Feb 05, 2027</p>
+          <h2 class="card-title text-xl font-extrabold">Collecting 8 points for discount</h2>
+          <p class="text-base">There are many variations of passages of Lorem Ipsum available.</p>
+          <div class="card-actions">
+            <button class="btn btn-outline text-[#1C1C1C] border-0 text-base">Learn More</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card border border-gray-600 max-w-sm">
+        <figure class="px-10 pt-10">
+          <img
+            src="images/news-3.png"
+            alt="news-2"
+            class="rounded-xl" />
+        </figure>
+
+        <div class="card-body items-center text-start">
+          <p class="text-base">Feb 05, 2027</p>
+          <h2 class="card-title text-xl font-extrabold">Collecting 8 points for discount</h2>
+          <p class="text-base">There are many variations of passages of Lorem Ipsum available.</p>
+          <div class="card-actions">
+            <button class="btn btn-outline text-[#1C1C1C] border-0 text-base">Learn More</button>
+          </div>
+        </div>
+      </div>
+     </section>
+
+     </section>
+  </main>
+
+  <footer class="footer bg-gradient-to-r from-[#FF8938] to-[#ff00002d] text-black p-10">
+    <nav>
+      <img src="images/cup.png" alt="">
+      <h6 class="footer-title">Quick Links</h6>
+      <a class="link link-hover">Home</a>
+      <a class="link link-hover">About Us</a>
+      <a class="link link-hover">Insurance</a>
+      <a class="link link-hover">Privacy Policy</a>
+    </nav>
+    <nav>
+      <h6 class="footer-title">Our Service</h6>
+      <a class="link link-hover">Life Insurance</a>
+      <a class="link link-hover">Car Insurance</a>
+      <a class="link link-hover">Health Insurance</a>
+      <a class="link link-hover">House Insurance</a>
+    </nav>
+    <nav>
+      <h6 class="footer-title">Help</h6>
+      <a class="link link-hover">FAQs</a>
+      <a class="link link-hover">Contact Us</a>
+    </nav>
+    <form>
+      <div class="flex flex-row items-center gap-2">
+        <h3 class="text-xl ">
+          Ready to get strated?
+        </h3>
+        <button class="btn btn-error">Get Started</button>
+      </div>
+      <h6 class="footer-title text-2xl font-semibold">Subscribe to our <br>newsletter</h6>
+      <fieldset class="form-control w-80">
+        <div class="join">
+          <input
+            type="text"
+            placeholder="Email address"
+            class="input input-bordered join-item bg-white" />
+          <button class="btn btn-primary join-item">Subscribe</button>
+        </div>
+      </fieldset>
+      <svg width="120" height="25" viewBox="0 0 120 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M14 13.6411H16.5L17.5 9.64111H14V7.64111C14 6.61111 14 5.64111 16 5.64111H17.5V2.28111C17.174 2.23811 15.943 2.14111 14.643 2.14111C11.928 2.14111 10 3.79811 10 6.84111V9.64111H7V13.6411H10V22.1411H14V13.6411Z" fill="#494949"/>
+        <path d="M70.1623 5.79802C69.3989 6.13571 68.5893 6.35749 67.7603 6.45602C68.634 5.93345 69.288 5.11103 69.6003 4.14202C68.7803 4.63002 67.8813 4.97202 66.9443 5.15702C66.3149 4.4836 65.4807 4.03698 64.5713 3.8866C63.6618 3.73622 62.7282 3.89051 61.9156 4.32547C61.1029 4.76043 60.4567 5.4517 60.0774 6.29181C59.6981 7.13192 59.607 8.0738 59.8183 8.97102C58.1554 8.88767 56.5286 8.45554 55.0436 7.70268C53.5585 6.94982 52.2484 5.89306 51.1983 4.60102C50.8266 5.23947 50.6313 5.96524 50.6323 6.70402C50.6323 8.15402 51.3703 9.43502 52.4923 10.185C51.8283 10.1641 51.1789 9.9848 50.5983 9.66202V9.71402C50.5985 10.6797 50.9327 11.6156 51.5441 12.3631C52.1556 13.1105 53.0068 13.6235 53.9533 13.815C53.3369 13.9821 52.6906 14.0067 52.0633 13.887C52.3302 14.7183 52.8503 15.4452 53.5509 15.9661C54.2515 16.487 55.0974 16.7758 55.9703 16.792C55.1028 17.4733 54.1095 17.977 53.0472 18.2742C51.9849 18.5714 50.8744 18.6563 49.7793 18.524C51.691 19.7534 53.9164 20.4061 56.1893 20.404C63.8823 20.404 68.0893 14.031 68.0893 8.50402C68.0893 8.32402 68.0843 8.14202 68.0763 7.96402C68.8952 7.37218 69.6019 6.63904 70.1633 5.79902L70.1623 5.79802Z" fill="#494949"/>
+        <path d="M108 2.14111C110.717 2.14111 111.056 2.15111 112.122 2.20111C113.187 2.25111 113.912 2.41811 114.55 2.66611C115.21 2.92011 115.766 3.26411 116.322 3.81911C116.83 4.31901 117.224 4.9237 117.475 5.59111C117.722 6.22811 117.89 6.95411 117.94 8.01911C117.987 9.08511 118 9.42411 118 12.1411C118 14.8581 117.99 15.1971 117.94 16.2631C117.89 17.3281 117.722 18.0531 117.475 18.6911C117.225 19.3589 116.831 19.9637 116.322 20.4631C115.822 20.9714 115.217 21.3649 114.55 21.6161C113.913 21.8631 113.187 22.0311 112.122 22.0811C111.056 22.1281 110.717 22.1411 108 22.1411C105.283 22.1411 104.944 22.1311 103.878 22.0811C102.813 22.0311 102.088 21.8631 101.45 21.6161C100.782 21.3656 100.178 20.9721 99.678 20.4631C99.1694 19.9633 98.7759 19.3586 98.525 18.6911C98.277 18.0541 98.11 17.3281 98.06 16.2631C98.013 15.1971 98 14.8581 98 12.1411C98 9.42411 98.01 9.08511 98.06 8.01911C98.11 6.95311 98.277 6.22911 98.525 5.59111C98.7752 4.92329 99.1688 4.31843 99.678 3.81911C100.178 3.31034 100.782 2.91684 101.45 2.66611C102.088 2.41811 102.812 2.25111 103.878 2.20111C104.944 2.15411 105.283 2.14111 108 2.14111ZM108 7.14111C106.674 7.14111 105.402 7.6679 104.464 8.60558C103.527 9.54326 103 10.815 103 12.1411C103 13.4672 103.527 14.739 104.464 15.6766C105.402 16.6143 106.674 17.1411 108 17.1411C109.326 17.1411 110.598 16.6143 111.536 15.6766C112.473 14.739 113 13.4672 113 12.1411C113 10.815 112.473 9.54326 111.536 8.60558C110.598 7.6679 109.326 7.14111 108 7.14111ZM114.5 6.89111C114.5 6.55959 114.368 6.24165 114.134 6.00723C113.899 5.77281 113.582 5.64111 113.25 5.64111C112.918 5.64111 112.601 5.77281 112.366 6.00723C112.132 6.24165 112 6.55959 112 6.89111C112 7.22263 112.132 7.54058 112.366 7.775C112.601 8.00942 112.918 8.14111 113.25 8.14111C113.582 8.14111 113.899 8.00942 114.134 7.775C114.368 7.54058 114.5 7.22263 114.5 6.89111ZM108 9.14111C108.796 9.14111 109.559 9.45718 110.121 10.0198C110.684 10.5824 111 11.3455 111 12.1411C111 12.9368 110.684 13.6998 110.121 14.2624C109.559 14.825 108.796 15.1411 108 15.1411C107.204 15.1411 106.441 14.825 105.879 14.2624C105.316 13.6998 105 12.9368 105 12.1411C105 11.3455 105.316 10.5824 105.879 10.0198C106.441 9.45718 107.204 9.14111 108 9.14111Z" fill="#494949"/>
+        </svg>
+        
+    </form>
+  </footer>
+</body>
+</html>
